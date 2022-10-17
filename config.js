@@ -4,16 +4,14 @@ import { watchFile, unwatchFile } from 'fs'
 import moment from 'moment-timezone'
 
 global.owner = [
-  ['+62 822-8721-9167'],
-  ['+62 895-6121-53565'],
-  ['+62 822-8721-9167', 'Papah-Chan', true],
-  ['+62 895-6121-53565', 'Johannes', true],
-  ['+687 86.94.15', 'Johannes2', true]
+  ['+62 821-4993-1770'],
+  ['+62 821-4993-1770', 'Ika Faturochman', true],
+  ['+62 889-2835-801', 'BangPenthol', true],
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
 global.prems = [] // Premium user has unlimited limit
-global.wm = ["New Base Papah-Chan"]
+global.wm = ["PentholBot"]
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -28,7 +26,7 @@ global.APIs = { // API Prefix
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
-  'https://api.xteam.xyz': 'd90a9e986e18778b',
+  'https://api.xteam.xyz': '0ec93f02fc8d94b4',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://api.zeks.xyz': 'apivinz',
   'https://pencarikode.xyz': 'pais',
@@ -44,11 +42,11 @@ global.thumbnailUrl = [
   'https://telegra.ph/file/de92ed4a729887ffc974c.jpg', 'https://telegra.ph/file/00ce42a193b1dbbf907d4.jpg'
 ]
 
-global.wm = '                「 ꜱᴀᴅ BOT あ⁩ 」' 
+global.wm = '                「 PentholBot あ⁩ 」' 
 
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘օառɛʀ - chαn˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ ฅ˘Oառɛʀ - Pɛռthol˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
 
-global.wm3 = '⫹⫺ ꜱᴀᴅ 𝗕𝗢𝗧'
+global.wm3 = '⫹⫺ Penthol 𝗕𝗢𝗧'
 
 global.botdate = `⫹⫺ Date :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
 
@@ -57,27 +55,27 @@ global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('Asia/Jakarta').format('HH:m
 global.titlebot = `⫹⫺ Time Sever : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n⫹⫺ Date Server :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
 `
 
-global.author = '                「 ꜱᴀᴅ BOT あ⁩ 」'
+global.author = '                「 PentholBot あ⁩ 」'
 
 // Sticker WM
 global.packname = ''
 global.author = ''
 
-global.sgc = 'https://chat.whatsapp.com/Eo0rT2MCSiWIijy7fMHlB7'
-global.sig = 'https://instagram.com/bot_whangsaf'
+global.sgc = 'https://chat.whatsapp.com/BheFZZjlhtkEOHaLbS2r4Q'
+global.sig = 'https://instagram.com/pnthll_'
 //========Url Template Buttons=========//
 global.dtu = 'ɪɴꜱᴛᴀɢʀᴀᴍ'
-global.urlnya = "https://www.instagram.com/bot_whangsaf"
+global.urlnya = "https://www.instagram.com/pnthll_"
 
 //============= callButtons =============//
 global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ'
-global.phn = '+62 822-8721-9167'
+global.phn = '+62 821-4993-1770'
 global.multiplier = 69 // The higher, The harder levelup
 /*============== NOMOR ==============*/
-global.nomorbot = '66801944580'
-global.nomorown = '6282287219167'
-global.namebot = 'Sad-Bot'
-global.nameown = 'Papah-Chan'
+global.nomorbot = '628892835801'
+global.nomorown = '6282149931770'
+global.namebot = 'PentholBot'
+global.nameown = 'BangPenthol'
 
 /*=========== FAKE SIZE ===========*/
 global.fsizedoc = '99999999999999' // default 10TB

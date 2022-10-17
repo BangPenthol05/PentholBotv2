@@ -69,7 +69,7 @@ let handler = async (m, { conn, usedPrefix, __dirname, text, command }) => {
 ⮕ ${groupsIn.length - groupsIn.length} - Groups Left
 ⮕ ${chats.length - groupsIn.length} - Personal Chats
 ⮕ ${chats.length} - Total Chats
-`.trim(), "Bot Papah-Chan",
+`.trim(), "Bot BangPenthol",
 [`ᴅᴏɴᴀᴛᴇ`, `${usedPrefix}donate`], m, { viewOnce: true})
 }
 handler.help = ['ping','speed']

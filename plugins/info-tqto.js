@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 
 let handler = async (m, { conn, usedPrefix }) => {
 
-    let pp = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png')
+    let pp = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://telegra.ph/file/840035806d83eef4533b1.png')
 
     //let wibu = `https://api.zacros.my.id/randomimg/loli`
 
@@ -107,6 +107,10 @@ https://github.com/Aiinne
 *❉ Fahri:*
 
 https://github.com/FahriAdison
+
+*❉ Penthol:*
+
+https://github.com/BangPenthol05
 
 *▸ - - - —「 SPESIAL HELPER 」— - - - ◂*
 

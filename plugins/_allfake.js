@@ -1,4 +1,4 @@
-//By Papah-Chan
+//By Penthol
 
 import fs from 'fs'
 import fetch from 'node-fetch'
@@ -24,8 +24,8 @@ handler.all = async function (m) {
         
 		// Ini untuk command crator/owner
 		global.kontak2 = [
-         [owner[0], await conn.getName(owner[0] + '@s.whatsapp.net'), 'ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ', 'fahriadison12@gmail.com', true],
-         [owner[1], await conn.getName(owner[1] + '@s.whatsapp.net'), 'ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ', 'fahriadison12@gmail.com', true], // Kalo mau di tambah tinggal copy 1baris ini di tempel di bawahnya trs di edit dikit!
+         [owner[0], await conn.getName(owner[0] + '@s.whatsapp.net'), 'ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ', 'riantitamaya@gmail.com', true],
+         [owner[1], await conn.getName(owner[1] + '@s.whatsapp.net'), 'ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ', 'bangpenthol05@gmail.com', true], // Kalo mau di tambah tinggal copy 1baris ini di tempel di bawahnya trs di edit dikit!
         ]
         
 		// ucapan ini mah
@@ -45,19 +45,19 @@ handler.all = async function (m) {
 					title: global.ucapan,
 					body: wm,
 					mediaUrl: sgc,
-					description: 'simple bot esm',
+					description: 'PentholBot',
 					previewType: "PHOTO",
 					thumbnail: await (await fetch(urls)).buffer(),
-					sourceUrl: "https://github.com/FahriAdison",					
+					sourceUrl: "https://github.com/BangPenthol05",					
 				}
 			}
 		}
 		global.fakeig = {
          contextInfo: { externalAdReply: { showAdAttribution: true,
-            mediaUrl: "https://Instagram.com/bot_whangsaf",
+            mediaUrl: "https://www.instagram.com/pnthll_/",
             mediaType: "VIDEO",
-            description: "https://Instagram.com/bot_whangsaf", 
-            title: 'Simple Bot Esm',
+            description: "https://www.instagram.com/pnthll_/", 
+            title: 'PentholBot',
             body: wm,
             thumbnailUrl: pp,
             sourceUrl: sgc
@@ -65,10 +65,10 @@ handler.all = async function (m) {
     } }
 global.fakefb = {
          contextInfo: { externalAdReply: { showAdAttribution: true,
-            mediaUrl: "https://Facebook.com/adison_fahri",
+            mediaUrl: "https://www.facebook.com/angga.prastiawan.9041/",
             mediaType: "VIDEO",
-            description: "https://Facebook.com/adison_fahri", 
-            title: 'Simple Bot Esm',
+            description: "https://www.facebook.com/angga.prastiawan.9041/", 
+            title: 'PentholBot',
             body: wm,
             thumbnailUrl: pp,
             sourceUrl: sgc
